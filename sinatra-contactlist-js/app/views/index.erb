@@ -1,0 +1,23 @@
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+<h1>Contacts</h1>
+<button id="list_contacts">Show Contacts</button>
+<button id="add_contact">Add Contact</button>
+
+<ul id="contacts"></ul>
+
+<form id="new-form" action="/contacts" method="post">
+  <label>First Name</label><br>
+  <input id="form-firstname" name="firstname" type="text"><br>
+  <label>Last Name</label><br>
+  <input id="form-lastname" name="lastname" type="text"><br>
+  <label>Email</label><br>
+  <input id="form-email"><br>
+  <label>Phone</label><br>
+  <input id="form-phone"><br>
+  <label>Address</label><br>
+  <input id="form-address"><br>
+  <input name="submit" type="submit">
+</form>
+
+<button id="delete-contact">Delete</button>
